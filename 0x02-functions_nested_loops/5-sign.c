@@ -3,7 +3,7 @@
 /**
  * print_sign - function that prints signs of the value of n
  * @n: parameter to be checked
- * Retunr: 1, 0 or -1
+ * Return: 1, 0 or -1
  */
 
 int print_sign(int n)
