@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - all possible combinations of single-digit numbers
+ * main - possible combinations of single-digit numbers
  *
  * Return: 0
  */
@@ -12,7 +12,7 @@ int main(void)
 
 	for (i = 0 ; i < 10 ; i++)
 	{
-		putchar(i +'0');
+		putchar(i + '0');
 		if (i != 9)
 		{
 			putchar(',');
